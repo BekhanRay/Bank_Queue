@@ -4,7 +4,7 @@
 #ENTRYPOINT ["top", "-b"]
 
 # Базовый образ
-FROM python:3.10
+FROM python:3.9
 
 # Установка зависимостей
 COPY requirements.txt /app/requirements.txt
